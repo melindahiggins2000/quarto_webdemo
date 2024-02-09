@@ -1,11 +1,20 @@
 ---
-title: "quarto_webdemo"
+title: "Melinda Higgins, PhD."
+image: me_crop_sm.jpg
+toc: false
+about: 
+  template: trestles
+  image-shape: round
+  image-width: 20em
+  links:
+    - text: LinkedIn
+      href: https://www.linkedin.com/in/melindahiggins2000/
+    - text: Google Scholar
+      href: https://scholar.google.com/citations?user=-4aU-VkAAAAJ&hl=en
+    - text: GitHub
+      href: https://github.com/melindahiggins2000
+    - text: Email
+      href: mailto:mkhiggi@emory.edu
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```
+Melinda Higgins is co-founder of [R-Ladies Atlanta](https://www.meetup.com/rladies-atlanta/) and current (2020-2022) Vice Chair of District 5 for the [American Statistical Association Council of Chapters](https://www.amstat.org/ASA/Membership/Chapters.aspx). She is also the author/creator of two online courses: [R for SAS Users](https://www.datacamp.com/courses/r-for-sas-users) and [Reproducible Templates for Analysis and Dissemination](https://www.coursera.org/learn/reproducible-templates-analysis). She is a [senior biostatistician and research professor](http://nursing.emory.edu/faculty-and-research/directory/profile.html?id=980) in the Office of Nursing Research - School of Nursing - Emory University in Atlanta, GA (2007-current). She is the author and teacher of two PhD level courses at Emory: [Quantitative Analysis of Clinical Data](https://melindahiggins2000.github.io/N736/) every Fall semester and [Big Data Analytics for Healthcare](https://melindahiggins2000.github.io/N741bigdata/) every Spring semester. Prior to that she was a Principal Research Scientist at the Georgia Tech Research Institute (1996-2011) and Program Manager for the $17M National Guard Bureau Technology Consortium.

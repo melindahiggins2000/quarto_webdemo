@@ -1,10 +1,10 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "quarto_webdemo",
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "resources",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "hi some stuff here"
   },
   {
     "objectID": "about.html",
@@ -12,5 +12,12 @@
     "title": "About",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Melinda Higgins, PhD.",
+    "section": "",
+    "text": "Melinda Higgins is co-founder of R-Ladies Atlanta and current (2020-2022) Vice Chair of District 5 for the American Statistical Association Council of Chapters. She is also the author/creator of two online courses: R for SAS Users and Reproducible Templates for Analysis and Dissemination. She is a senior biostatistician and research professor in the Office of Nursing Research - School of Nursing - Emory University in Atlanta, GA (2007-current). She is the author and teacher of two PhD level courses at Emory: Quantitative Analysis of Clinical Data every Fall semester and Big Data Analytics for Healthcare every Spring semester. Prior to that she was a Principal Research Scientist at the Georgia Tech Research Institute (1996-2011) and Program Manager for the $17M National Guard Bureau Technology Consortium."
   }
 ]
