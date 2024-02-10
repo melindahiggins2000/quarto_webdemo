@@ -2,8 +2,28 @@
 title: "About"
 ---
 
-About this site
+::: callout-note
+## Notes caption here
 
-```{r}
-1 + 1
-```
+Add some notes here
+:::
+
+::: panel-tabset
+## Fruits
+
+-   berries
+
+-   apples
+
+-   bananas
+
+## Drinks
+
+1.  Beer
+
+2.  Wine
+
+3.  Smoothies
+
+## About this site
+:::

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Melinda Higgins - resources</title>
+<title>resources</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -30,6 +64,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./favicon-32x32.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -61,7 +96,6 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -91,10 +125,21 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="./resources.html" rel="" target="" aria-current="page">
- <span class="menu-text">resources</span></a>
+ <span class="menu-text">Resources</span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools ms-auto">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./cv/HigginsCV_16June2023_noHighlights.pdf" rel="" target="">
+ <span class="menu-text">CV</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/melindahiggins2000" rel="" target=""><i class="bi bi-github" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools">
 </div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
@@ -104,11 +149,18 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#make-a-plot" id="toc-make-a-plot" class="nav-link active" data-scroll-target="#make-a-plot">Make a plot</a></li>
+  <li><a href="#make-a-table" id="toc-make-a-table" class="nav-link" data-scroll-target="#make-a-table">Make a table</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -127,9 +179,247 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>hi some stuff here</p>
+<section id="make-a-plot" class="level2">
+<h2 class="anchored" data-anchor-id="make-a-plot">Make a plot</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(pressure)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<p><img src="resources_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+</section>
+<section id="make-a-table" class="level2">
+<h2 class="anchored" data-anchor-id="make-a-table">Make a table</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>
+Attaching package: 'dplyr'</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>The following objects are masked from 'package:stats':
+
+    filter, lag</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>mtcars <span class="sc">%&gt;%</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(mpg, cyl, disp) <span class="sc">%&gt;%</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>  knitr<span class="sc">::</span><span class="fu">kable</span>(<span class="at">caption =</span> <span class="st">"Here is a table"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<table class="table table-sm table-striped small">
+<caption>Here is a table</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: right;">mpg</th>
+<th style="text-align: right;">cyl</th>
+<th style="text-align: right;">disp</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Mazda RX4</td>
+<td style="text-align: right;">21.0</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">160.0</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Mazda RX4 Wag</td>
+<td style="text-align: right;">21.0</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">160.0</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Datsun 710</td>
+<td style="text-align: right;">22.8</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">108.0</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Hornet 4 Drive</td>
+<td style="text-align: right;">21.4</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">258.0</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Hornet Sportabout</td>
+<td style="text-align: right;">18.7</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">360.0</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Valiant</td>
+<td style="text-align: right;">18.1</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">225.0</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Duster 360</td>
+<td style="text-align: right;">14.3</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">360.0</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Merc 240D</td>
+<td style="text-align: right;">24.4</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">146.7</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Merc 230</td>
+<td style="text-align: right;">22.8</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">140.8</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Merc 280</td>
+<td style="text-align: right;">19.2</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">167.6</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Merc 280C</td>
+<td style="text-align: right;">17.8</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">167.6</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Merc 450SE</td>
+<td style="text-align: right;">16.4</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">275.8</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Merc 450SL</td>
+<td style="text-align: right;">17.3</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">275.8</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Merc 450SLC</td>
+<td style="text-align: right;">15.2</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">275.8</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Cadillac Fleetwood</td>
+<td style="text-align: right;">10.4</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">472.0</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Lincoln Continental</td>
+<td style="text-align: right;">10.4</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">460.0</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Chrysler Imperial</td>
+<td style="text-align: right;">14.7</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">440.0</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Fiat 128</td>
+<td style="text-align: right;">32.4</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">78.7</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Honda Civic</td>
+<td style="text-align: right;">30.4</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">75.7</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Toyota Corolla</td>
+<td style="text-align: right;">33.9</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">71.1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Toyota Corona</td>
+<td style="text-align: right;">21.5</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">120.1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Dodge Challenger</td>
+<td style="text-align: right;">15.5</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">318.0</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">AMC Javelin</td>
+<td style="text-align: right;">15.2</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">304.0</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Camaro Z28</td>
+<td style="text-align: right;">13.3</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">350.0</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Pontiac Firebird</td>
+<td style="text-align: right;">19.2</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">400.0</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Fiat X1-9</td>
+<td style="text-align: right;">27.3</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">79.0</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Porsche 914-2</td>
+<td style="text-align: right;">26.0</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">120.3</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Lotus Europa</td>
+<td style="text-align: right;">30.4</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">95.1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Ford Pantera L</td>
+<td style="text-align: right;">15.8</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">351.0</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Ferrari Dino</td>
+<td style="text-align: right;">19.7</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">145.0</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Maserati Bora</td>
+<td style="text-align: right;">15.0</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">301.0</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Volvo 142E</td>
+<td style="text-align: right;">21.4</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">121.0</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -366,6 +656,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+ Copyright 2024, Melinda Higgins, PhD.
+  </li>  
+</ul>
+    </div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
 
 
 

@@ -2,4 +2,19 @@
 title: "resources"
 ---
 
-hi some stuff here
+## Make a plot
+
+```{r}
+plot(pressure)
+```
+
+## Make a table
+
+```{r}
+library(dplyr)
+
+mtcars %>%
+  select(mpg, cyl, disp) %>%
+  knitr::kable(caption = "Here is a table")
+```
+

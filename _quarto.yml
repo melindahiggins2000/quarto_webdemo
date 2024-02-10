@@ -3,20 +3,37 @@ project:
   output-dir: docs
 
 website:
-  title: "Melinda Higgins"
+  favicon: favicon-32x32.png
   navbar:
+    title: Melinda Higgins
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
-      - resources.qmd
+      - href: about.qmd
+        text: About
+      - href: resources.qmd
+        text: Resources
+    right:
+      - href: cv/HigginsCV_16June2023_noHighlights.pdf
+        text: CV
+      - icon: github
+        href: https://github.com/melindahiggins2000
+  page-footer:
+    background: light
+    left:
+      - "Copyright 2024, Melinda Higgins, PhD."
 
 format:
   html:
-    theme: pulse
-    css: styles.css
+    theme: 
+      - yeti
+      - styles.scss
+    mainfont: Nunito
     toc: true
     page-layout: full
 
 editor: visual
 
+
+      
+      
