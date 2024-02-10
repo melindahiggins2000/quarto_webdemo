@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>resources</title>
+<title>practice-markdown</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,40 +19,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -124,7 +90,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./resources.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="./resources.html" rel="" target="">
  <span class="menu-text">Resources</span></a>
   </li>  
 </ul>
@@ -154,274 +120,20 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#make-a-plot" id="toc-make-a-plot" class="nav-link active" data-scroll-target="#make-a-plot">Make a plot</a></li>
-  <li><a href="#make-a-table" id="toc-make-a-table" class="nav-link" data-scroll-target="#make-a-table">Make a table</a></li>
+  <li><a href="#here-is-my-level-one-header" id="toc-here-is-my-level-one-header" class="nav-link active" data-scroll-target="#here-is-my-level-one-header">Here is my level one header</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">resources</h1>
-</div>
 
 
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-</header>
-
-<section id="make-a-plot" class="level2">
-<h2 class="anchored" data-anchor-id="make-a-plot">Make a plot</h2>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(pressure)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output-display">
-<p><img src="resources_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid" width="672"></p>
-</div>
-</div>
-</section>
-<section id="make-a-table" class="level2">
-<h2 class="anchored" data-anchor-id="make-a-table">Make a table</h2>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stderr">
-<pre><code>
-Attaching package: 'dplyr'</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>The following objects are masked from 'package:stats':
-
-    filter, lag</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>The following objects are masked from 'package:base':
-
-    intersect, setdiff, setequal, union</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>mtcars <span class="sc">%&gt;%</span></span>
-<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(mpg, cyl, disp) <span class="sc">%&gt;%</span></span>
-<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>  knitr<span class="sc">::</span><span class="fu">kable</span>(<span class="at">caption =</span> <span class="st">"Here is a table"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output-display">
-<table class="table table-sm table-striped small">
-<caption>Here is a table</caption>
-<thead>
-<tr class="header">
-<th style="text-align: left;"></th>
-<th style="text-align: right;">mpg</th>
-<th style="text-align: right;">cyl</th>
-<th style="text-align: right;">disp</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">Mazda RX4</td>
-<td style="text-align: right;">21.0</td>
-<td style="text-align: right;">6</td>
-<td style="text-align: right;">160.0</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Mazda RX4 Wag</td>
-<td style="text-align: right;">21.0</td>
-<td style="text-align: right;">6</td>
-<td style="text-align: right;">160.0</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Datsun 710</td>
-<td style="text-align: right;">22.8</td>
-<td style="text-align: right;">4</td>
-<td style="text-align: right;">108.0</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Hornet 4 Drive</td>
-<td style="text-align: right;">21.4</td>
-<td style="text-align: right;">6</td>
-<td style="text-align: right;">258.0</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Hornet Sportabout</td>
-<td style="text-align: right;">18.7</td>
-<td style="text-align: right;">8</td>
-<td style="text-align: right;">360.0</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Valiant</td>
-<td style="text-align: right;">18.1</td>
-<td style="text-align: right;">6</td>
-<td style="text-align: right;">225.0</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Duster 360</td>
-<td style="text-align: right;">14.3</td>
-<td style="text-align: right;">8</td>
-<td style="text-align: right;">360.0</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Merc 240D</td>
-<td style="text-align: right;">24.4</td>
-<td style="text-align: right;">4</td>
-<td style="text-align: right;">146.7</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Merc 230</td>
-<td style="text-align: right;">22.8</td>
-<td style="text-align: right;">4</td>
-<td style="text-align: right;">140.8</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Merc 280</td>
-<td style="text-align: right;">19.2</td>
-<td style="text-align: right;">6</td>
-<td style="text-align: right;">167.6</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Merc 280C</td>
-<td style="text-align: right;">17.8</td>
-<td style="text-align: right;">6</td>
-<td style="text-align: right;">167.6</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Merc 450SE</td>
-<td style="text-align: right;">16.4</td>
-<td style="text-align: right;">8</td>
-<td style="text-align: right;">275.8</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Merc 450SL</td>
-<td style="text-align: right;">17.3</td>
-<td style="text-align: right;">8</td>
-<td style="text-align: right;">275.8</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Merc 450SLC</td>
-<td style="text-align: right;">15.2</td>
-<td style="text-align: right;">8</td>
-<td style="text-align: right;">275.8</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Cadillac Fleetwood</td>
-<td style="text-align: right;">10.4</td>
-<td style="text-align: right;">8</td>
-<td style="text-align: right;">472.0</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Lincoln Continental</td>
-<td style="text-align: right;">10.4</td>
-<td style="text-align: right;">8</td>
-<td style="text-align: right;">460.0</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Chrysler Imperial</td>
-<td style="text-align: right;">14.7</td>
-<td style="text-align: right;">8</td>
-<td style="text-align: right;">440.0</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Fiat 128</td>
-<td style="text-align: right;">32.4</td>
-<td style="text-align: right;">4</td>
-<td style="text-align: right;">78.7</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Honda Civic</td>
-<td style="text-align: right;">30.4</td>
-<td style="text-align: right;">4</td>
-<td style="text-align: right;">75.7</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Toyota Corolla</td>
-<td style="text-align: right;">33.9</td>
-<td style="text-align: right;">4</td>
-<td style="text-align: right;">71.1</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Toyota Corona</td>
-<td style="text-align: right;">21.5</td>
-<td style="text-align: right;">4</td>
-<td style="text-align: right;">120.1</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Dodge Challenger</td>
-<td style="text-align: right;">15.5</td>
-<td style="text-align: right;">8</td>
-<td style="text-align: right;">318.0</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">AMC Javelin</td>
-<td style="text-align: right;">15.2</td>
-<td style="text-align: right;">8</td>
-<td style="text-align: right;">304.0</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Camaro Z28</td>
-<td style="text-align: right;">13.3</td>
-<td style="text-align: right;">8</td>
-<td style="text-align: right;">350.0</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Pontiac Firebird</td>
-<td style="text-align: right;">19.2</td>
-<td style="text-align: right;">8</td>
-<td style="text-align: right;">400.0</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Fiat X1-9</td>
-<td style="text-align: right;">27.3</td>
-<td style="text-align: right;">4</td>
-<td style="text-align: right;">79.0</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Porsche 914-2</td>
-<td style="text-align: right;">26.0</td>
-<td style="text-align: right;">4</td>
-<td style="text-align: right;">120.3</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Lotus Europa</td>
-<td style="text-align: right;">30.4</td>
-<td style="text-align: right;">4</td>
-<td style="text-align: right;">95.1</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Ford Pantera L</td>
-<td style="text-align: right;">15.8</td>
-<td style="text-align: right;">8</td>
-<td style="text-align: right;">351.0</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Ferrari Dino</td>
-<td style="text-align: right;">19.7</td>
-<td style="text-align: right;">6</td>
-<td style="text-align: right;">145.0</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Maserati Bora</td>
-<td style="text-align: right;">15.0</td>
-<td style="text-align: right;">8</td>
-<td style="text-align: right;">301.0</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Volvo 142E</td>
-<td style="text-align: right;">21.4</td>
-<td style="text-align: right;">4</td>
-<td style="text-align: right;">121.0</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-<div class="body-text-s topbr">
-<div class="important-text-bg">
-<em>Important:</em> Take extra care to never skip (or incorrectly type) an end tag! Some elements will still display correctly if you forget an end tag, but you cannot rely on this. Forgotten end tags will cause you headaches as you try troubleshoot unexpected results and errors <svg aria-label="Face Grin Beam Sweat" role="img" viewbox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#222222;overflow:visible;position:relative;"><title>Face Grin Beam Sweat</title><path d="M476.8 126.3C497.1 120.8 512 102.7 512 81c0-20-28.6-60.4-41.6-77.7c-3.2-4.4-9.6-4.4-12.8 0c-9.5 12.6-27.1 37.2-36 57.5c-.3 .7-.6 1.4-.9 2.1C417.8 69.7 416 76 416 81c0 26 21.5 47 48 47c4.4 0 8.7-.6 12.8-1.7zM395.4 41.2C355.3 15.2 307.4 0 256 0C114.6 0 0 114.6 0 256S114.6 512 256 512s256-114.6 256-256c0-35.8-7.3-69.9-20.6-100.8c-8.6 3.1-17.8 4.8-27.4 4.8c-8.9 0-17.6-1.5-25.7-4.2C454.7 185.5 464 219.7 464 256c0 114.9-93.1 208-208 208S48 370.9 48 256S141.1 48 256 48c48.7 0 93.4 16.7 128.9 44.7c-.6-3.8-.9-7.7-.9-11.7c0-11.4 3.8-22.4 7.1-30.5c1.3-3.1 2.7-6.2 4.3-9.3zM375 336.5c10.4-16.1-6.8-32.5-25.5-28.1c-28.9 6.8-60.5 10.5-93.6 10.5s-64.7-3.7-93.6-10.5c-18.7-4.4-35.9 12-25.5 28.1c24.6 38.1 68.7 63.5 119.1 63.5s94.5-25.4 119.1-63.5zM217.6 228.8l0 0 0 0 0 0c2.1 2.8 5.7 3.9 8.9 2.8s5.5-4.1 5.5-7.6c0-17.9-6.7-35.6-16.6-48.8c-9.8-13-23.9-23.2-39.4-23.2s-29.6 10.2-39.4 23.2C126.7 188.4 120 206.1 120 224c0 3.4 2.2 6.5 5.5 7.6s6.9 0 8.9-2.8l0 0 0 0 0 0 .2-.2c.2-.2 .4-.5 .7-.9c.6-.8 1.6-2 2.8-3.4c2.5-2.8 6-6.6 10.2-10.3c8.8-7.8 18.8-14 27.7-14s18.9 6.2 27.7 14c4.2 3.7 7.7 7.5 10.2 10.3c1.2 1.4 2.2 2.6 2.8 3.4c.3 .4 .6 .7 .7 .9l.2 .2 0 0zm160 0l0 0 0 0c2.1 2.8 5.7 3.9 8.9 2.8s5.5-4.1 5.5-7.6c0-17.9-6.7-35.6-16.6-48.8c-9.8-13-23.9-23.2-39.4-23.2s-29.6 10.2-39.4 23.2C286.7 188.4 280 206.1 280 224c0 3.4 2.2 6.5 5.5 7.6s6.9 0 8.9-2.8l0 0 0 0 0 0 .2-.2c.2-.2 .4-.5 .7-.9c.6-.8 1.6-2 2.8-3.4c2.5-2.8 6-6.6 10.2-10.3c8.8-7.8 18.8-14 27.7-14s18.9 6.2 27.7 14c4.2 3.7 7.7 7.5 10.2 10.3c1.2 1.4 2.2 2.6 2.8 3.4c.3 .4 .6 .7 .7 .9l.2 .2 0 0 0 0z"></path></svg>.
-</div>
-</div>
+<section id="here-is-my-level-one-header" class="level1">
+<h1>Here is my level one header</h1>
+<p>Here is my first paragraph</p>
+<p>Here is my second paragraph, where you can read more about <a href="https://ucsb-meds.github.io/">MEDS</a>.</p>
+<p>This is very important text!</p>
 
 
 </section>

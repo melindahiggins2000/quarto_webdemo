@@ -31,3 +31,29 @@ $code-color: $purple; // inline code text color
 
 // Code blocks
 $code-block-bg: $cream; // code block background color
+
+/*-- scss:rules --*/
+
+// S body text
+.body-text-s {
+  font-size: 20px; // 19px
+	line-height: 1.6em;
+}
+
+.important-text-bg {
+  background-color: rgba(217, 178, 189, 0.5); 
+  padding-top: 5px; 
+  padding-bottom: 5px; 
+  padding-right: 5px; 
+  padding-left: 8px; 
+  border-radius: 25px;
+}
+
+h1, h2 {
+  letter-spacing: 5px;
+  color: $dark-green;
+}
+
+.title {
+  color: red;
+}

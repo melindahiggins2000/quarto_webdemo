@@ -1,0 +1,35 @@
+
+h1 {
+  color: #ad03fc;
+  letter-spacing: 5px;
+}
+
+h2 {
+  background-color: #49bf96;
+  border-radius: 25px;
+  letter-spacing: 5px;
+  text-align: center;
+}
+
+a {
+  color: #03fcf0;
+  font-style: italic;;
+}
+
+.blue-italicized {
+  color: #7174d9;
+  font-style: italic;
+}
+
+.red-large {
+  color: red;
+  font-size: 40px;
+}
+
+/* large red text */
+.important-text {
+  color: red;
+  font-size: 30px;
+}
+
+
