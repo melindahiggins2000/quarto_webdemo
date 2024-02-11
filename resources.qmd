@@ -4,6 +4,16 @@ editor_options:
   chunk_output_type: console
 ---
 
+## Helpful websites
+
+-   [UCSB-MEDS Creating Quarto Websites](https://ucsb-meds.github.io/creating-quarto-websites/)
+-   [UCSB-MEDS Customizing Quarto Websites](https://ucsb-meds.github.io/customizing-quarto-websites/)
+-   [UCSB-MEDS Github](https://github.com/UCSB-MEDS)
+
+## Link to local slides - my copies
+
+-   My Copy uscb-meds slides - hidden in drafts ucsb_meds_custompres.qmd and sections and images
+
 ## Make a plot
 
 ```{r}
@@ -21,6 +31,25 @@ mtcars %>%
 ```
 
 ::: {.body-text-s .topbr}
-<div class="important-text-bg">*Important:* Take extra care to never skip (or incorrectly type) an end tag! Some elements will still display correctly if you forget an end tag, but you cannot rely on this. Forgotten end tags will cause you headaches as you try troubleshoot unexpected results and errors `r fontawesome::fa("grin-beam-sweat", fill = "#222222", a11y = "sem")`.</div>
+::: important-text-bg
+*Important:* Take extra care to never skip (or incorrectly type) an end tag! Some elements will still display correctly if you forget an end tag, but you cannot rely on this. Forgotten end tags will cause you headaches as you try troubleshoot unexpected results and errors `r fontawesome::fa("grin-beam-sweat", fill = "#222222", a11y = "sem")`.
+:::
 :::
 
+## Add some tabs
+
+::: panel-tabset
+## tab 1
+
+some text on this one
+
+## tab 2
+
+```{r}
+plot(cars)
+```
+
+## tab 3
+
+some more tabs go here
+:::

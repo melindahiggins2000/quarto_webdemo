@@ -4,14 +4,28 @@
     "href": "resources.html",
     "title": "resources",
     "section": "",
-    "text": "plot(pressure)"
+    "text": "UCSB-MEDS Creating Quarto Websites\nUCSB-MEDS Customizing Quarto Websites\nUCSB-MEDS Github"
+  },
+  {
+    "objectID": "resources.html#helpful-websites",
+    "href": "resources.html#helpful-websites",
+    "title": "resources",
+    "section": "",
+    "text": "UCSB-MEDS Creating Quarto Websites\nUCSB-MEDS Customizing Quarto Websites\nUCSB-MEDS Github"
+  },
+  {
+    "objectID": "resources.html#link-to-local-slides---my-copies",
+    "href": "resources.html#link-to-local-slides---my-copies",
+    "title": "resources",
+    "section": "Link to local slides - my copies",
+    "text": "Link to local slides - my copies\n\nMy Copy uscb-meds slides - hidden in drafts ucsb_meds_custompres.qmd and sections and images"
   },
   {
     "objectID": "resources.html#make-a-plot",
     "href": "resources.html#make-a-plot",
     "title": "resources",
-    "section": "",
-    "text": "plot(pressure)"
+    "section": "Make a plot",
+    "text": "Make a plot\n\nplot(pressure)"
   },
   {
     "objectID": "resources.html#make-a-table",
@@ -19,6 +33,69 @@
     "title": "resources",
     "section": "Make a table",
     "text": "Make a table\n\nlibrary(dplyr)\n\n\nAttaching package: 'dplyr'\n\n\nThe following objects are masked from 'package:stats':\n\n    filter, lag\n\n\nThe following objects are masked from 'package:base':\n\n    intersect, setdiff, setequal, union\n\nmtcars %&gt;%\n  select(mpg, cyl, disp) %&gt;%\n  knitr::kable(caption = \"Here is a table\")\n\n\nHere is a table\n\n\n\nmpg\ncyl\ndisp\n\n\n\n\nMazda RX4\n21.0\n6\n160.0\n\n\nMazda RX4 Wag\n21.0\n6\n160.0\n\n\nDatsun 710\n22.8\n4\n108.0\n\n\nHornet 4 Drive\n21.4\n6\n258.0\n\n\nHornet Sportabout\n18.7\n8\n360.0\n\n\nValiant\n18.1\n6\n225.0\n\n\nDuster 360\n14.3\n8\n360.0\n\n\nMerc 240D\n24.4\n4\n146.7\n\n\nMerc 230\n22.8\n4\n140.8\n\n\nMerc 280\n19.2\n6\n167.6\n\n\nMerc 280C\n17.8\n6\n167.6\n\n\nMerc 450SE\n16.4\n8\n275.8\n\n\nMerc 450SL\n17.3\n8\n275.8\n\n\nMerc 450SLC\n15.2\n8\n275.8\n\n\nCadillac Fleetwood\n10.4\n8\n472.0\n\n\nLincoln Continental\n10.4\n8\n460.0\n\n\nChrysler Imperial\n14.7\n8\n440.0\n\n\nFiat 128\n32.4\n4\n78.7\n\n\nHonda Civic\n30.4\n4\n75.7\n\n\nToyota Corolla\n33.9\n4\n71.1\n\n\nToyota Corona\n21.5\n4\n120.1\n\n\nDodge Challenger\n15.5\n8\n318.0\n\n\nAMC Javelin\n15.2\n8\n304.0\n\n\nCamaro Z28\n13.3\n8\n350.0\n\n\nPontiac Firebird\n19.2\n8\n400.0\n\n\nFiat X1-9\n27.3\n4\n79.0\n\n\nPorsche 914-2\n26.0\n4\n120.3\n\n\nLotus Europa\n30.4\n4\n95.1\n\n\nFord Pantera L\n15.8\n8\n351.0\n\n\nFerrari Dino\n19.7\n6\n145.0\n\n\nMaserati Bora\n15.0\n8\n301.0\n\n\nVolvo 142E\n21.4\n4\n121.0\n\n\n\n\n\n\n\nImportant: Take extra care to never skip (or incorrectly type) an end tag! Some elements will still display correctly if you forget an end tag, but you cannot rely on this. Forgotten end tags will cause you headaches as you try troubleshoot unexpected results and errors Face Grin Beam Sweat."
+  },
+  {
+    "objectID": "resources.html#add-some-tabs",
+    "href": "resources.html#add-some-tabs",
+    "title": "resources",
+    "section": "Add some tabs",
+    "text": "Add some tabs\n\ntab 1tab 2tab 3\n\n\nsome text on this one\n\n\n\nplot(cars)\n\n\n\n\n\n\nsome more tabs go here"
+  },
+  {
+    "objectID": "posts/2024-02-11-newpost/index.html",
+    "href": "posts/2024-02-11-newpost/index.html",
+    "title": "First blog title",
+    "section": "",
+    "text": "some text here\nsomething here with a footnote1"
+  },
+  {
+    "objectID": "posts/2024-02-11-newpost/index.html#header",
+    "href": "posts/2024-02-11-newpost/index.html#header",
+    "title": "First blog title",
+    "section": "",
+    "text": "some text here\nsomething here with a footnote1"
+  },
+  {
+    "objectID": "posts/2024-02-11-newpost/index.html#code-example",
+    "href": "posts/2024-02-11-newpost/index.html#code-example",
+    "title": "First blog title",
+    "section": "code example",
+    "text": "code example\n\nplot(cars)"
+  },
+  {
+    "objectID": "posts/2024-02-11-newpost/index.html#footnotes",
+    "href": "posts/2024-02-11-newpost/index.html#footnotes",
+    "title": "First blog title",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\ntext to go with the first footnote.↩︎"
+  },
+  {
+    "objectID": "posts/2024-02-11-newpost2/index.html",
+    "href": "posts/2024-02-11-newpost2/index.html",
+    "title": "First blog title",
+    "section": "",
+    "text": "some text here\nsomething here with a footnote1"
+  },
+  {
+    "objectID": "posts/2024-02-11-newpost2/index.html#header",
+    "href": "posts/2024-02-11-newpost2/index.html#header",
+    "title": "First blog title",
+    "section": "",
+    "text": "some text here\nsomething here with a footnote1"
+  },
+  {
+    "objectID": "posts/2024-02-11-newpost2/index.html#code-example",
+    "href": "posts/2024-02-11-newpost2/index.html#code-example",
+    "title": "First blog title",
+    "section": "code example",
+    "text": "code example\n\nplot(cars)"
+  },
+  {
+    "objectID": "posts/2024-02-11-newpost2/index.html#footnotes",
+    "href": "posts/2024-02-11-newpost2/index.html#footnotes",
+    "title": "First blog title",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\ntext to go with the first footnote.↩︎"
   },
   {
     "objectID": "index.html",
@@ -33,6 +110,41 @@
     "title": "About",
     "section": "",
     "text": "Notes caption here\n\n\n\nAdd some notes here\n\n\n\nFruitsDrinksAbout this site\n\n\n\nberries\napples\nbananas\n\n\n\n\nBeer\nWine\nSmoothies"
+  },
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "My Blog",
+    "section": "",
+    "text": "First blog title\n\n\n\nQuarto\n\n\nR\n\n\n\nmy post description (appears underneath the title in smaller text) which is included on the listing page\n\n\n\nMelinda Higgins\n\n\nFeb 11, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFirst blog title\n\n\n\nQuarto\n\n\nR\n\n\n\nmy post description (appears underneath the title in smaller text) which is included on the listing page\n\n\n\nMelinda Higgins\n\n\nFeb 11, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFirst blog title\n\n\n\nQuarto\n\n\nR\n\n\n\nmy post description (appears underneath the title in smaller text) which is included on the listing page\n\n\n\nMelinda Higgins\n\n\nFeb 11, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/2024-02-11-newpost3/index.html",
+    "href": "posts/2024-02-11-newpost3/index.html",
+    "title": "First blog title",
+    "section": "",
+    "text": "some text here\nsomething here with a footnote1"
+  },
+  {
+    "objectID": "posts/2024-02-11-newpost3/index.html#header",
+    "href": "posts/2024-02-11-newpost3/index.html#header",
+    "title": "First blog title",
+    "section": "",
+    "text": "some text here\nsomething here with a footnote1"
+  },
+  {
+    "objectID": "posts/2024-02-11-newpost3/index.html#code-example",
+    "href": "posts/2024-02-11-newpost3/index.html#code-example",
+    "title": "First blog title",
+    "section": "code example",
+    "text": "code example\n\nplot(cars)"
+  },
+  {
+    "objectID": "posts/2024-02-11-newpost3/index.html#footnotes",
+    "href": "posts/2024-02-11-newpost3/index.html#footnotes",
+    "title": "First blog title",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\ntext to go with the first footnote.↩︎"
   },
   {
     "objectID": "practice-markdown.html",

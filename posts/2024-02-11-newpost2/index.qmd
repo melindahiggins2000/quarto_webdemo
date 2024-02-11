@@ -1,0 +1,30 @@
+---
+title: "First blog title"
+description: "my post description (appears underneath the title in smaller text) which is included on the listing page"
+author:
+  - name: Melinda Higgins
+    url: https://melindahiggins.netlify.app/
+    orcid: 0000-0001-6579-5885
+    affiliation: Director of Biostatistics and Data Core, Office of Nursing Research, School of Nursing, Emory University, Atlanta, GA USA
+    affiliation-url: https://www.nursing.emory.edu/faculty-staff/melinda-k-higgins
+date: 02-11-2024
+categories: [Quarto, R] # self-defined categories
+citation: 
+  url: https://melindahiggins2000.github.io/quarto_webdemo/posts/2024-02-11-newpost/ 
+image: butterfly2.jpg
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+---
+
+## header
+
+some text here
+
+something here with a footnote[^1]
+
+[^1]: text to go with the first footnote.
+
+## code example
+
+```{r}
+plot(cars)
+```

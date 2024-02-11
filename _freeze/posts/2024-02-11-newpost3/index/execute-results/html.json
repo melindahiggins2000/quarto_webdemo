@@ -1,0 +1,16 @@
+{
+  "hash": "ab25b1c703111a25b78ce90f4c37f56c",
+  "result": {
+    "markdown": "---\ntitle: \"First blog title\"\ndescription: \"my post description (appears underneath the title in smaller text) which is included on the listing page\"\nauthor:\n  - name: Melinda Higgins\n    url: https://melindahiggins.netlify.app/\n    orcid: 0000-0001-6579-5885\n    affiliation: Director of Biostatistics and Data Core, Office of Nursing Research, School of Nursing, Emory University, Atlanta, GA USA\n    affiliation-url: https://www.nursing.emory.edu/faculty-staff/melinda-k-higgins\ndate: 02-11-2024\ncategories: [Quarto, R] # self-defined categories\ncitation: \n  url: https://melindahiggins2000.github.io/quarto_webdemo/posts/2024-02-11-newpost/ \nimage: butterfly3.jpg\ndraft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!\n---\n\n\n## header\n\nsome text here\n\nsomething here with a footnote[^1]\n\n[^1]: text to go with the first footnote.\n\n## code example\n\n\n::: {.cell}\n\n```{.r .cell-code}\nplot(cars)\n```\n\n::: {.cell-output-display}\n![](index_files/figure-html/unnamed-chunk-1-1.png){width=672}\n:::\n:::\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

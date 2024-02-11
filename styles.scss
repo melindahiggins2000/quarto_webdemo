@@ -54,6 +54,19 @@ h1, h2 {
   color: $dark-green;
 }
 
+.panel-tabset [role=tab][aria-selected=true] {
+  background-color: #9fefb2;
+  border: 1px solid #bbb;
+  border-bottom-color: #fff;
+}
+
+.panel-tabset [role=tab][aria-selected=false] {
+  background-color: #cfbff4;
+  border: 1px solid #bbb;
+  border-bottom-color: #fff;
+}
+
+
 .title {
   color: red;
 }
