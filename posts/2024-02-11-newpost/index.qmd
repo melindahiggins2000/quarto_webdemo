@@ -1,6 +1,7 @@
 ---
 title: "First blog title"
-description: "my post description (appears underneath the title in smaller text) which is included on the listing page"
+description: | 
+  my post description (appears underneath the title in smaller text) which is included on the listing page
 author:
   - name: Melinda Higgins
     url: https://melindahiggins.netlify.app/
@@ -28,4 +29,3 @@ something here with a footnote[^1]
 ```{r}
 plot(cars)
 ```
-

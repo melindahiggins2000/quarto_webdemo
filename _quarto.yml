@@ -32,12 +32,12 @@ format:
   html:
     theme: 
       - yeti
-      - ucsb_meds_styles.scss
+      - ucsb_meds_styles_mkh.scss
     mainfont: Nunito
     toc: true
     page-layout: full
 
-editor: visual
+editor: source
 
 
       
